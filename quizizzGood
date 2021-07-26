@@ -30,7 +30,7 @@ if (url.includes("quizizz.com/join/quiz/") && url.includes("/start")) {
     if (autoProceed) {document.querySelector("body > div > div.root-component > div > div > div > div.pre-game-screen > div.main-action-section > div.action-item-wrapper.default-card-styles.cta-section > div > div > button.primary-button.play-again > i").click();}
     setTimeout(function() {location.reload();}, 100);
 }
-
+ 
 let prevQuestionNum;
 
 let tick = setInterval(function() {
